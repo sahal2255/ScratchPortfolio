@@ -1,9 +1,9 @@
 
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
-import Projects from './components/Projects'
 import Skills from './components/Skills'
 import './App.css'
+import ReactMini from './components/projects/ReactMini'
 function App() {
 
   return (
@@ -15,7 +15,7 @@ function App() {
 
         <Hero id="home" />
         <Skills id="skills" />
-        <Projects id="project" />
+        <ReactMini/>
       </div>
     </>
   )
